@@ -1,4 +1,4 @@
-# Run Python Script Action
+# Python Script Runner
 
 Write Python scripts in an Actions workflow file!
 

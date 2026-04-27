@@ -1,5 +1,5 @@
-name: "Run Python Script"
-description: "Run a custom python snippet inside a workflow file"
+name: "Python Script Runner"
+description: "Write and run Python scripts directly inside your GitHub Actions workflow YAML"
 inputs:
   script:
     description: "Python script"

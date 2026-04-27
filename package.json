@@ -1,5 +1,5 @@
 {
-  "name": "run-python-srcipt-action",
+  "name": "run-python-script-action",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
