@@ -1,4 +1,4 @@
-# Run Python Script Action
+# Python Script Runner
 
 Write Python scripts in an Actions workflow file!
 
@@ -19,11 +19,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-      - uses: jannekem/run-python-script-action@v1
+      - uses: eafolabi/run-python-script-action@v1
         with:
           script: |
             import os
@@ -54,11 +54,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-      - uses: jannekem/run-python-script-action@v1
+      - uses: eafolabi/run-python-script-action@v1
         id: script
         with:
           fail-on-error: false
@@ -83,7 +83,7 @@ The action comes bundled with utilities that you can use to interact with the wo
 Example:
 
 ```yaml
-- uses: jannekem/run-python-script-action@v1
+- uses: eafolabi/run-python-script-action@v1
   with:
     script: |
       add_path("/usr/local/test")

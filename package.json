@@ -1,5 +1,5 @@
 {
-  "name": "run-python-srcipt-action",
+  "name": "run-python-script-action",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jannekem/run-python-srcipt-action.git"
+    "url": "git+https://github.com/eafolabi/run-python-script-action.git"
   },
-  "author": "",
+  "author": "eafolabi",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jannekem/run-python-srcipt-action/issues"
+  "engines": {
+    "node": ">=24"
   },
-  "homepage": "https://github.com/jannekem/run-python-srcipt-action#readme",
+  "bugs": {
+    "url": "https://github.com/eafolabi/run-python-script-action/issues"
+  },
+  "homepage": "https://github.com/eafolabi/run-python-script-action#readme",
   "dependencies": {
     "@actions/core": "^1.10.1",
     "@actions/exec": "^1.1.1",
